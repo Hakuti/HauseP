@@ -1,0 +1,181 @@
+#app-content {
+    /* background: blue; */
+    /* margin-left: 200px !important;
+    margin-right: 200px !important; */
+    /* margin: 0px */
+    height: 100% !important;
+    
+}
+
+
+/* For demo */
+.ant-carousel .slick-slide {
+    text-align: center;
+    
+    height: 260px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1 !important;
+    /* position: relative; */
+  }
+
+  .ant-carousel {
+      z-index: 1 !important;
+      /* background: orange; */
+  }
+
+  .left-arrow-c{
+    position: relative;
+    top: 140px;
+    left: 10px;
+    /* border: 3px solid; */
+    z-index: 99 !important;
+    font-size: 25px !important;
+    fill: white;    
+  }
+
+  .right-arrow-c{
+    position: relative;
+    bottom: 140px;
+    left: 330px;
+    z-index: 99 !important;
+    /* fill: white; */
+    font-size: 25px !important;
+    
+  }
+
+  
+  
+  .ant-carousel .slick-slide h1 {
+    color: black;
+  }
+
+
+.img-container-carousel {
+    /* position: relative; */
+    width: 100%;
+    height: 100%;
+}
+
+.img-container-carousel  img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.fill {
+    object-fit: fill;
+}
+
+.outer-carousel-c {
+    /* width: 300px;
+    height: 280px; */
+    margin: 0 auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    /* background: red; */
+}
+
+.carousel-container {
+    width: 360px;
+    height: 260px;
+    border-radius: 10px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    /* position: relative; */
+}
+.app-h1 {
+    position: relative;
+    font-size: 40px;
+    text-align: start;
+
+}
+.app-h2 {
+    font-weight: 100;
+}
+
+.mobile-card-nav {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+    margin: 10px auto;
+    margin-left: 10px;
+    /* background: orange; */
+    /* &::-webkit-scrollbar {
+      display: none;
+    } */
+}
+
+
+@media only screen and (max-width: 776px) {
+
+    #app-content{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        /* background: blue; */
+    }
+
+    .app-h1{
+        
+        /* border: 3px solid; */
+        /* margin: 10px; */
+        font-size: 40px;
+        text-align: center;
+        
+    }
+    .app-h2 {
+        margin-top: 30px;
+        font-weight: 100;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 777px ) and (max-width: 991px) {
+
+    .app-h1 {
+        text-align: start;
+        position: relative;
+        left: 60px;
+    }
+    .app-h2 {
+     position: relative;
+      left: 80px;
+      margin-top: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 991px){
+
+    #app-content{
+        margin-left: 100px !important;
+        margin-right: 100px !important;
+    }
+
+    .app-h1 {
+        right: 10px;
+        /* border: 1px solid; */
+    }
+
+    .app-h2 {
+        /* border: 1px solid; */
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1240px){
+    #app-content{
+        margin-left: 90px !important;
+        margin-right: 90px !important;
+    }
+}
+
+@media only screen and (min-width: 1240px){
+    #app-content {
+        margin-left: 200px !important;
+        margin-right: 200px !important;
+    }
+}
